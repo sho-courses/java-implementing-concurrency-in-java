@@ -1,10 +1,10 @@
-package io.github.shomeier.module2;
+package io.github.shomeier.module2.interrupt;
 
 public class RunThread implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 10; i++) {
-            System.out.println(i);
+            System.out.println("Current thread id: " + Thread.currentThread().getId() + ", i: " + i);
             System.out.println("Is interrupted: " + Thread.currentThread().isInterrupted());
 
             try {

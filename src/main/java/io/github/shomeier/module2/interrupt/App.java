@@ -1,4 +1,4 @@
-package io.github.shomeier.module2;
+package io.github.shomeier.module2.interrupt;
 
 public class App {
 
